@@ -1,0 +1,61 @@
+.canvas {
+    display: none;
+}
+
+body{
+    background: black;
+}
+
+#form {
+    margin: auto;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width : 768px) {
+    #form {
+        width: 100%;
+    }
+}
+
+
+label {
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+}
+
+.input-field {
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    background: black;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    color: yellow;
+}
+
+.input-field::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+
+#download {
+    margin: 20px 0;
+    width: 100%;
+    background: black;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    color: yellow;
+}
